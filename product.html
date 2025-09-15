@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site">
+    <header>
+      <a href="index.html" class="logo">← Back</a>
+      <h1 id="productName">Loading...</h1>
+    </header>
+
+    <main class="product-detail">
+      <div class="media">
+        <img id="productImage" src="" alt="">
+      </div>
+      <div class="info">
+        <p id="productDescription"></p>
+        <p><strong>Price:</strong> <span id="productPrice"></span></p>
+        <p><strong>People bought:</strong> <span id="productBought"></span></p>
+        <p><strong>Discount Coupon:</strong> <span id="productCoupon"></span></p>
+        <div class="actions">
+          <button class="btn add" id="addToCart">Add to Cart</button>
+          <button class="btn" style="background:#06b6d4" id="buyNow">Buy Now</button>
+        </div>
+      </div>
+    </main>
+
+    <section class="reviews">
+      <h3>Reviews</h3>
+      <ul id="productReviews"></ul>
+    </section>
+  </div>
+
+  <script src="product.js"></script>
+</body>
+</html>
